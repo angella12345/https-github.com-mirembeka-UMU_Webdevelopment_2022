@@ -1,0 +1,72 @@
+body{
+    background-color:grey;
+}
+.nav-container{
+    width: 100%;
+    height: 70px;
+    background-color: brown;
+}
+.nav-tool{
+    width: 47%;
+    height: 100%;
+    float: left;
+    font-size: 30px; 
+    padding: 10px;
+}
+.logo-1{
+    color: aliceblue;
+}
+.logo-2{
+    color: aliceblue;
+}
+}
+.nav{
+    color: yellow;
+    font-size: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: grey;
+}
+.nav .active{
+    color: white;
+}
+.nav ul li{
+    display: inline;
+    text-decoration: none;
+    padding-right: 20px; 
+}.nav .join{
+    background-color: rgb(197, 151, 51);
+    color: white;
+    padding: 10px;
+    padding-left:10px;
+    border-radius: 20px;
+}
+.line{
+    width:100%;
+    height: 10px;
+    background-color: yellow;
+}
+
+.head-con{
+    text-align: center;
+    color:whitesmoke;
+
+}
+.head-con h1{
+    font-size: 50px;
+}
+nav-container{
+    width: 200%;
+    height: 80px;
+    background-color:yellowgreen;
+
+    Style buttons */
+    .btn {
+      background-color: DodgerBlue;
+      border: none;
+      color: white;
+      padding: 12px 30px;
+      cursor: pointer;
+      font-size: 20px;
+    }

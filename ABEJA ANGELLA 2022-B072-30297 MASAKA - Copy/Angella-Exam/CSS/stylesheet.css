@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Oleo+Script+Swash+Caps&display=swap');
+body{
+    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	background: maroon
+}
+.col-1{height: 60px; 
+    background-color: rgba(226, 30, 30, 0.548);}
+.col-1-con{
+    max-width: 100%;
+     height: auto;}
+.col-1-nav{
+    height: 40px;
+    float: left;}
+.nav-1{width: 60%;
+    padding: 14px 16px;
+    height: 20px;
+    font-family: 'Kalam', cursive;
+}
+.nav-2{width: 35%;}
+.col-1-nav .logo-1,.logo-2{color:yellow;  
+    font-size: 30px;
+}
+.col-1-nav .logo-2{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: rgb(228, 13, 13);
+    font-size: 30;
+}
+.topnav {
+    overflow: hidden;
+    margin-top: 15px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    color: white;
+  }
+  
+  .topnav a.active {
+    color: white;
+  }
+  .topnav a.join {
+    background-color: rgb(228, 13, 13);
+    color: white;
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 30px;
+  }
+
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  .line
+  {
+    height: 20px;
+    width: 100%;
+    background-color: rgb(255, 123, 0);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 20%);
+  }
+  .heading h1, p {text-align: center; color: white; font-size: 1.6rem;}.heading h1{font-size: 2.6rem;margin-top: 40px;}
+  .head-button{
+    height: 40px;
+    width: 20%;
+    margin: auto;
+    background-color: rgb(85, 83, 83);
+    border-radius: 30px;
+    text-align: center;
+  }
+  .head-button .button-1{float: left; width: 50%;margin-top: 10px;}
+  .head-button a{
+    text-decoration: none;
+    color: white;
+  }
+  .button-1 i{margin-right: 10px;}
+  .button-active{background-color: brown; height: 30px;margin-top: -10px;padding-top: 10px; border-radius: 30px;}
+  .Pricing{
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .Pricing-box{
+    width: 48.5%;
+    height: 400px;
+    float: left;
+    color: white;
+    background-color: #808080;
+  }
+  .Pricing-con{
+    width: 100%;
+    height: 250px;
+    margin-top: -10px;
+    background-color: black;
+  }
+  .Pricing-con .p1{text-align: left;font-weight: bold;}
+  .Pricing-con .p2{text-align: left; margin-top: -30px;}
+  .Pricing-con .p3{font-size: 15px;}
+  .Pricing-con .p1, .p2, .p3{color: white;padding: 10px;}
+  .button-start{
+    width: 80%;
+    height: 30px;
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    background-color: brown;
+  }
+  .Pricing-con a{text-decoration: none;color: white;}
+  .twitter-comments{
+    width: 80%;
+    height: 230px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .twitter-comments .twitter-comments-box{
+    width: 29.4%;
+    padding: 10px;
+    float: left;
+    color: white;
+    border-radius: 20px;
+    background-color: #000;
+
+  }
+  .comment-con{
+    width: 100%;
+    height: 50px;
+  }
+  .col-comment{
+    width: 31.3%;
+    height: 50px;
+    float: left;
+    color: white;
+  }
+  .comment-img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+  .comment-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .comment-img i{
+    font-size: 30px;
+    color: rgb(6, 162, 235);
+  }
+  .comment-name {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .comment-hastag {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .twitter-comments-box p{
+    font-size: 13px;
+    margin-top: 25px;
+    padding: 10px;
+  }
+  .twitter-comments-box hr{
+ 
+    margin: 10px;
+    background-color: white;
+}
+.time{text-align: left; padding-left: 10px; font-size: 12px; color: #808080;}
+.footer{
+    width: 100%;
+    height: 230px;
+    background-color: black;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .footer-con{
+    width: 100%;
+    height: 50px;
+  }
+  .nav-3{width: 20%;
+    padding: 14px 16px;
+    height: 20px;
+    font-family: 'Kalam', cursive;
+}
+.bottomnav {
+    overflow: hidden;
+    margin-top: 25px;
+  }
+  
+  .bottomnav a {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .bottomnav a:hover {
+    color: white;
+  }
+  .footer-box{
+    width: 80%;
+    margin: auto;
+  }
+  .download {
+    width: 80%;
+    margin: auto;
+    height: 70px;
+  }
+  .download-icon {
+    height: 70px;
+    float: left;
+    margin-right: 2%;
+  }
+  .download-icon img{
+    width: 150px;
+    height: 75px;
+  }
+  .social-media-con{
+    width: 80%;
+    margin: auto;
+    color: white;
+    margin-top: 20px;
+    height: 50px;
+  }
+  .con-1 {
+    width: 50%;
+    height: 50px;
+    float: left;
+  }
+  
+  }
